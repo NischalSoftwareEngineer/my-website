@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admissions - Banepa NIST</title>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        /* Styling for the top menu */
+        p {
+            font-family: Arial, sans-serif;
+            background-color: deepskyblue;
+            word-spacing: 10px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            
+        }
+
+        p a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        p a:hover {
+            background-color: #f2f2f2;
+            color: black;        }
+             h2{background-color: khaki; margin:10px; }
+             
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            background-color: deepskyblue;
+            word-spacing: 10px;
+            padding: 10px;
+            margin: 1;
+        }
+
+        p a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        p a:hover {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        h2 {
+            background-color: khaki;
+            margin: 10px;
+        }
+
+        form {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 60%;
+            padding: 20px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        form b {
+            font-size: 18px;
+        }
+
+        form input[type="text"],
+        form input[type="date"],
+        form input[type="tel"],
+        form input[type="file"],
+        form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        form input[type="checkbox"] {
+            margin: 0 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: deepskyblue;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: green;        }
+
+        
+</style>
+</head>
+<body>
+<center>
+        <img src="banepanist.png">
+        <b>
+            <p>
+                <a href="home.html">HOME</a>
+                <a href="academics.html">ACADEMICS</a>
+                <a href="facilities.html">FACILITIES</a>
+                <a href="admission.html">ADMISSION</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="project.html">LOGOUT</a>
+            </p>
+        </b>
+        <h2 > ADMISSIONS</h2>
+    </center>
+
+        	<p1>The College opens new admissions for aspiring students in Grade 11 every year immediately upon the publication of the result of the Secondary Education Examination (SEE). Students, who have successfully passed the SEE or equivalent examination, are eligible to apply for admission in Grade 11.</p1>
+            <center>
+
+<h2>REGISTER YOUR INTEREST</h2>
+<form action="admit.html"><b>
+    Grade:<br>
+    <select id="grade">
+        <option value="1">11</option>
+        <option value="2"disabled>12 </option>
+    </select><br>
+    Faculty:<br>
+    <select id="faculty">
+        <option value="1">Science</option>
+        <option value="2">Management </option>
+    </select><br>
+
+    Full Name:<br>
+    <input type="text" id="name"placeholder="Enter Full Name" required><br>
+    Date of Birth:<br>
+    <input type="date"><br>
+    Gender:
+    <input type="checkbox">Male <input type="checkbox">Female<br><br>
+    Student's passport sized photo:<br>
+    <input type="file"><br>
+    Address:<br>
+    <input type="text"placeholder="Enter Address"required><br>
+
+    Phone No.:<br>
+    <input type="tel"id="phone"placeholder="Enter Phone No."required><br>
+
+    Guardian's Full Name<br>
+    <input type="text"placeholder="Enter Full Name"required><br>
+    SEE batch year:<br>
+    <input type="text"required><br>
+    SEE GPA:<br>
+    <input type="text"required><br>
+    <input type="submit"value="Submit">
+
+
+</body>
+</html>
